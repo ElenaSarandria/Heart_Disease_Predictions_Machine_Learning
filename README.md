@@ -78,6 +78,7 @@ Logistic Regression is a Machine Learning classification algorithm that is used 
 
 # KNeighborsClassifier and Confusion Matrix
 KNN algorithm used for both classification and regression problems. KNN algorithm based on feature similarity approach.
+
 ![](images/output_18_1.png)
 
 ![](images/output_22_1.png)
@@ -110,6 +111,6 @@ Losses
 Test Accuracy of PyTorch Algorithm: 78.02%
 
 
-# The result
+# The results
 The highest accuracy achieved by Logistic Regression and Random Forest Models.
 ![](images/1.png)
