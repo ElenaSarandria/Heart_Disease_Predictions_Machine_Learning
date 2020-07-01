@@ -35,3 +35,36 @@ In particular, the Cleveland database (https://archive.ics.uci.edu/ml/datasets/H
 - PyTorch
 
 # Analysis
+
+- Percentage of patients with or without disease
+![](images/target.png)
+
+- Percentage of male/female patients
+![](images/sex.png)
+
+- Boxplot based on male/female patients and target (0 = no disease, 1 = disease)
+![](images/output_15_0.png)
+
+- Target group based on age
+![](images/age.png)
+
+- Heart Disease Frequency for Ages
+![](images/output_19_0.png)
+
+- Age vs Max Heart Disease Rate 
+![](images/output_18_0.png)
+
+- Heart Disease Frequency for Male/Female Patients
+![](images/output_20_0.png)
+
+- Cholesterol vs Blood Pressure
+![](images/output_21_0.png) 
+
+- Thalassemia vs Max Heart Rate Achieved 
+![](images/output_22_0.png)
+
+- Heart Disease Frequency According to Fasting Blood Sugar (FBS)
+![](images/output_23_0.png)
+
+- Heart Disease Frequency According to Chest Pain Type
+![](images/output_24_0.png)
