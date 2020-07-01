@@ -34,7 +34,7 @@ In particular, the Cleveland database (https://archive.ics.uci.edu/ml/datasets/H
 - Grid Search
 - PyTorch
 
-# Analysis
+# Exploratory Data Analysis
 
 - Percentage of patients with or without disease
 ![](images/target.png)
@@ -57,14 +57,59 @@ In particular, the Cleveland database (https://archive.ics.uci.edu/ml/datasets/H
 - Heart Disease Frequency for Male/Female Patients
 ![](images/output_20_0.png)
 
-- Cholesterol vs Blood Pressure
-![](images/output_21_0.png) 
+- Cholesterol vs Blood Pressure ![](images/output_21_0.png) 
 
-- Thalassemia vs Max Heart Rate Achieved 
-![](images/output_22_0.png)
+- Thalassemia vs Max Heart Rate Achieved ![](images/output_22_0.png)
+
 
 - Heart Disease Frequency According to Fasting Blood Sugar (FBS)
 ![](images/output_23_0.png)
 
 - Heart Disease Frequency According to Chest Pain Type
 ![](images/output_24_0.png)
+
+
+# Machine Learning
+
+# Logistic Regression Model
+Logistic Regression is a Machine Learning classification algorithm that is used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded.
+- Training Data Score: 0.8546255506607929
+- Testing Data Score: 0.868421052631579
+
+# KNeighborsClassifier and Confusion Matrix
+KNN algorithm used for both classification and regression problems. KNN algorithm based on feature similarity approach.
+![](images/output_18_1.png)
+
+![](images/output_22_1.png)
+
+![](images/output_24_02.png)
+
+The accuracy score achieved using KNN is 75.00%
+
+# Random Forest Classification Model
+A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. 
+Random Forest Classification Score is 84.21%
+
+# Grid Search Model
+Grid-search is used to find the optimal hyperparameters of a model which results in the most ‘accurate’ predictions.
+Test Accuracy of SVM Algorithm is 68.42%.
+
+# PyTorch
+Distribution of values
+
+![](images/output_48_2.png)
+
+Loss vs number of epochs
+
+![](images/output_72_1.png)
+
+Losses
+
+![](images/output_100_1.png)
+
+Test Accuracy of PyTorch Algorithm: 78.02%
+
+
+# The result
+The highest accuracy achieved by Logistic Regression and Random Forest Models.
+![](images/1.png)
