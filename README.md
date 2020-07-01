@@ -1,17 +1,14 @@
-## Heart Disease Predictions using Machine Learning
+## Heart Disease Predictions using Machine Learning 
+![](images/h.jpg)
 
-
-
-In this research was used a data which classified if patients have heart disease or not according to features in it. 
-To make predictions were used different classification techniques for predicting the risk level of each person based on age, gender, blood pressure, cholesterol, pulse rate.
-
-
-
+In this research was used a data which classified if patients have heart disease or not according to features in it. To make predictions were used different classification techniques for predicting the risk level of each person based on age, gender, blood pressure, cholesterol, pulse rate. The disease prediction system based on predictive modeling which predicts the disease of the user on the basis of the symptoms that user provides as an input to the system. The system analyzes the symptoms provided by the user as input and gives the probability of the disease as an output. The predictions are made using the classification model that is built from the classification algorithms when the heart disease dataset is used for training. This final model can be used for prediction of any types of heart diseases. Disease prediction is done by implementing five techniques such as Logistic Regression, KNeighborsClassifier, Random Forest Classification, Grid Search, PyTorch. These techniques calculate the probability of the disease. 
 
 # The data
 - Dataset was found on kaggle https://www.kaggle.com/ronitf/heart-disease-uci
 - The database contains 76 attributes, but all published experiments refer to using a subset of 14 of them. 
 In particular, the Cleveland database (https://archive.ics.uci.edu/ml/datasets/Heart+Disease) is the only one that has been used by ML researchers to this date.
+
+![](images/data.png)
 
 # Attribute Information:
 1. Age - years
@@ -36,3 +33,5 @@ In particular, the Cleveland database (https://archive.ics.uci.edu/ml/datasets/H
 - Random Forest Classification
 - Grid Search
 - PyTorch
+
+# Analysis
